@@ -1,0 +1,76 @@
+.body{
+	background:url(background1.jpeg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:100% 100%;
+	display:block;
+	
+	
+}
+.box{
+	width: 300px;
+	height: 400px;
+	transform: translate(200%,50%);
+	border-radius: 20px;
+	background-color: white;
+	border-style: solid;
+	box-shadow:15px 15px 30px black; 
+	opacity: 0.9;
+}
+.box>img{
+
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top:-5%;
+	left: 42%;
+	border-radius: 50px;
+	border-style:solid; 
+}
+.content{
+	position: absolute;
+	top: 40px;
+	left:70px;
+	padding-top:20px; 
+}
+.login>input{
+	border-style:none;
+	border-bottom-style:solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	outline: none;
+}
+.login>h3{
+	text-align:center;
+	color:blue;
+	font-family:sans-serif;
+}
+.login>b{
+	font-family:sans-serif;
+
+}
+#status{
+	position: absolute;
+	transform: translate(0%,0px);
+	color: red;
+}
+.btn{
+	padding:8px 50px;
+	position: absolute;
+	margin: 58px 0px;
+	left:20px;
+	background-color:#4AAD57;
+	border-radius:20px;
+	cursor: pointer;
+}
+.login>p{
+	position: absolute;
+	transform: translate(0%,90px);
+}
+.login>p>a{
+	text-decoration:none;
+	color:blue;
+}
+.login>p>a:hover{
+	color:red;
+}
